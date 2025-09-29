@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "totalTests": 13,
+    "passed": 7,
+    "failed": 6,
+    "successRate": 53.84615384615385,
+    "duration": 0.005,
+    "timestamp": "2025-09-13T15:28:35.678Z",
+    "overallStatus": "FAILED"
+  },
+  "results": [
+    {
+      "test": "Data Structure",
+      "passed": false,
+      "message": "Data structure validation failed",
+      "details": "Cannot read properties of undefined (reading 'hasOwnProperty')",
+      "timestamp": "2025-09-13T15:28:35.672Z"
+    },
+    {
+      "test": "Multiple Choice Questions",
+      "passed": false,
+      "message": "Testing failed",
+      "details": "mcQuestions is not iterable",
+      "timestamp": "2025-09-13T15:28:35.673Z"
+    },
+    {
+      "test": "True/False Questions",
+      "passed": false,
+      "message": "Testing failed",
+      "details": "tfQuestions is not iterable",
+      "timestamp": "2025-09-13T15:28:35.674Z"
+    },
+    {
+      "test": "Essay Questions",
+      "passed": false,
+      "message": "Testing failed",
+      "details": "essayQuestions is not iterable",
+      "timestamp": "2025-09-13T15:28:35.675Z"
+    },
+    {
+      "test": "LaTeX Formulas",
+      "passed": false,
+      "message": "Testing failed",
+      "details": "Cannot read properties of undefined (reading 'generatedQuestions')",
+      "timestamp": "2025-09-13T15:28:35.675Z"
+    },
+    {
+      "test": "Vietnamese Text",
+      "passed": false,
+      "message": "Testing failed",
+      "details": "Cannot read properties of undefined (reading 'generatedQuestions')",
+      "timestamp": "2025-09-13T15:28:35.676Z"
+    },
+    {
+      "test": "PDF Config 1",
+      "passed": true,
+      "message": "Valid configuration",
+      "details": "{\"includeAnswers\":true,\"includeExplanations\":true,\"paperSize\":\"A4\",\"orientation\":\"portrait\"}",
+      "timestamp": "2025-09-13T15:28:35.676Z"
+    },
+    {
+      "test": "PDF Config 2",
+      "passed": true,
+      "message": "Valid configuration",
+      "details": "{\"includeAnswers\":false,\"includeExplanations\":true,\"paperSize\":\"A4\",\"orientation\":\"portrait\"}",
+      "timestamp": "2025-09-13T15:28:35.676Z"
+    },
+    {
+      "test": "PDF Config 3",
+      "passed": true,
+      "message": "Valid configuration",
+      "details": "{\"includeAnswers\":true,\"includeExplanations\":false,\"paperSize\":\"Letter\",\"orientation\":\"landscape\"}",
+      "timestamp": "2025-09-13T15:28:35.676Z"
+    },
+    {
+      "test": "PDF Config 4",
+      "passed": true,
+      "message": "Valid configuration",
+      "details": "{\"includeAnswers\":false,\"includeExplanations\":false,\"paperSize\":\"Letter\",\"orientation\":\"portrait\"}",
+      "timestamp": "2025-09-13T15:28:35.677Z"
+    },
+    {
+      "test": "Empty Questions Handling",
+      "passed": true,
+      "message": "Empty questions detected correctly",
+      "details": null,
+      "timestamp": "2025-09-13T15:28:35.677Z"
+    },
+    {
+      "test": "Missing Fields Detection",
+      "passed": true,
+      "message": "Missing fields detected",
+      "details": "Missing: question, options, correctAnswer",
+      "timestamp": "2025-09-13T15:28:35.677Z"
+    },
+    {
+      "test": "Long Content Handling",
+      "passed": true,
+      "message": "Long content test created",
+      "details": null,
+      "timestamp": "2025-09-13T15:28:35.677Z"
+    }
+  ]
+}
